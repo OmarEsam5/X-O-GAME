@@ -99,6 +99,9 @@ function out() {
         setTimeout(() => {
             window.location.reload()
         }, 3000);
+        boxes.forEach((ele) => {
+            ele.classList.add("true")
+        })
 }
 
 resultX.innerHTML = scoreX
